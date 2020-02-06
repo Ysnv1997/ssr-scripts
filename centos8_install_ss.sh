@@ -164,7 +164,7 @@ function installSS()
     make && make install
     if [ $? -ne 0 ]; then
         echo
-        echo -e "[${red}错误${plain}] Shadowsocks-libev 安装失败！ 请打开 https://www.hijk.pw 反馈"
+        echo -e "[${red}错误${plain}] Shadowsocks-libev 安装失败！ 请打开 https://www.ishanran.com 反馈"
         cd ${BASE} && rm -rf shadowsocks-libev-3.3.3*
         exit 1
     fi
@@ -191,7 +191,7 @@ EOF
  cat > /usr/lib/systemd/system/shadowsocks-libev.service <<-EOF
 [Unit]
 Description=shadowsocks
-Documentation=https://www.hijk.pw/
+Documentation=https://www.ishanran.com/
 After=network-online.target
 Wants=network-online.target
 

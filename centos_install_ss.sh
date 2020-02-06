@@ -40,16 +40,16 @@ action=$1
 case "$action" in
     install)
         if [ $main -eq 7 ]; then
-            bash <(curl -L -s https://raw.githubusercontent.com/hijkpw/scripts/master/centos7_install_ss.sh)
+            bash <(curl -L -s https://raw.githubusercontent.com/Ysnv1997/ssr-scripts/master/centos7_install_ss.sh)
         else
-            bash <(curl -L -s https://raw.githubusercontent.com/hijkpw/scripts/master/centos8_install_ss.sh)
+            bash <(curl -L -s https://raw.githubusercontent.com/Ysnv1997/ssr-scripts/master/centos8_install_ss.sh)
         fi
         ;;
     uninstall)
         if [ $main -eq 7 ]; then
-            bash <(curl -L -s https://raw.githubusercontent.com/hijkpw/scripts/master/centos7_install_ss.sh) uninstall
+            bash <(curl -L -s https://raw.githubusercontent.com/Ysnv1997/ssr-scripts/master/centos7_install_ss.sh) uninstall
         else
-            bash <(curl -L -s https://raw.githubusercontent.com/hijkpw/scripts/master/centos8_install_ss.sh) uninstall
+            bash <(curl -L -s https://raw.githubusercontent.com/Ysnv1997/ssr-scripts/master/centos8_install_ss.sh) uninstall
         fi
         ;;
     *)

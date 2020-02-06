@@ -81,7 +81,7 @@ function installV2ray()
     bash <(curl -L -s https://install.direct/go.sh)
 
     if [ ! -f /etc/v2ray/config.json ]; then
-        echo "安装失败，请到 https://www.hijk.pw 网站反馈"
+        echo "安装失败，请到 https://www.ishanran.com 网站反馈"
         exit 1
     fi
 
